@@ -1,1 +1,1 @@
-streamlit  Version: 1.44.1
+streamlit==1.44.1
