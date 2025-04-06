@@ -48,8 +48,14 @@ div[data-testid="stMarkdownContainer"] > div {
     with st.sidebar:
         st.header("📊 Dashboard")
         st.write("Welcome to the Bloomberg Argument Analyzer")
-        st.write("🕘 Recent: None")
-        st.write("⚙️ Mode: Dark")
+        st.write("This tool is designed to analyze the arguments presented in a given text.")
+        st.write("You can input your arguments and counterarguments in two ways:")
+        st.write("- **Manual Input**: Type in your arguments and counterarguments manually.")
+        st.write("- **File Upload**: Upload text files containing your arguments and counterarguments.")
+        st.write("Once you provide the arguments, click on the **Analyze Arguments** button to get insights.")
+        st.write("You can also download the analysis results for your records.")
+        st.write("For any issues or feedback, please contact the support team.")
+        st.write("Version: 1.0.0")
 
     # Title
     st.title("🧠 Argument-Counterargument Analyzer")
