@@ -1,0 +1,1 @@
+{"feature_cols": ["semantic_similarity", "heading_similarity", "citation_overlap", "entity_overlap", "term_overlap"], "model_name": "Logistic Regression", "threshold": 0.4, "max_links_per_arg": 5, "sentence_model_name": "all-mpnet-base-v2"}
